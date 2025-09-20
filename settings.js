@@ -60,30 +60,30 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
   ANTI_LINK: process.env.ANTI_LINK || "true",
   ANTI_VV: process.env.ANTI_VV || "true",
-  DELETE_LINKS: process.env.DELETE_LINKS || "false",
+  DELETE_LINKS: process.env.DELETE_LINKS || "true",
   ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
   ANTI_BOT: process.env.ANTI_BOT || "false",
   PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
-  DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
+  DESCRIPTION: process.env.DESCRIPTION || "only catwhiskers",
   PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
-  AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+  AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
   AUTO_BIO: process.env.AUTO_BIO || "false",
-  WELCOME: process.env.WELCOME || "false",
-  GOODBYE: process.env.GOODBYE || "false",
-  ADMIN_ACTION: process.env.ADMIN_ACTION || "false",
+  WELCOME: process.env.WELCOME || "true",
+  GOODBYE: process.env.GOODBYE || "true",
+  ADMIN_ACTION: process.env.ADMIN_ACTION || "true",
   version: process.env.version || "1.5.0",
   TIMEZONE: settings.TIMEZONE || process.env.TIMEZONE || "Africa/Kampala",
 
   // ===== CATEGORY-SPECIFIC IMAGE URLs =====
   MENU_IMAGES: {
     '1': process.env.DOWNLOAD_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg", // Download Menu
-    '2': process.env.GROUP_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",   // Group Menu
+    '2': process.env.GROUP_MENU_IMAGE || "",   // Group Menu
     '3': process.env.FUN_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",       // Fun Menu
-    '4': process.env.OWNER_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",   // Owner Menu
+    '4': process.env.OWNER_MENU_IMAGE || "",   // Owner Menu
     '5': process.env.AI_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",         // AI Menu
     '6': process.env.ANIME_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",   // Anime Menu
     '7': process.env.CONVERT_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg", // Convert Menu
