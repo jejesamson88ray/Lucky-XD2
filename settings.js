@@ -18,26 +18,26 @@ module.exports = {
   SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "malvin~8jl3AKAC#KHbt22Aa22Ty62zuos0V-Bw_Z0p2jK8qLoeHgyz9EhI",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
-  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ʟᴜᴄᴋʏ-xᴅ",
+  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "bot ray",
   MODE: getConfig("MODE") || process.env.MODE || "public",
-  REPO: process.env.REPO || "https://github.com/Tomilucky218/Lucky-XD2",
-  BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
+  REPO: process.env.REPO || "",
+  BAILEYS: process.env.BAILEYS || "@",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
   OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "2348152936335",
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "catwhiskers",
   DEV: process.env.DEV || "256789966218",
-  DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
+  DEVELOPER_NUMBER: '',
   MENU_AUDIO_URL: process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/3v5i11.mp3',
-NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
+NEWSLETTER_JID: process.env.NEWSLETTER_JID || '',
 
   // ===== AUTO-RESPONSE SETTINGS =====
   AUTO_REPLY: process.env.AUTO_REPLY || "false",
-  AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+  AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
   AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆 🤖*",
   READ_MESSAGE: process.env.READ_MESSAGE || "false",
   REJECT_MSG: process.env.REJECT_MSG || "*📵 Calls are not allowed on this number unless you have permission. 🚫*",
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/4itzeu.jpg",
+  ALIVE_IMG: process.env.ALIVE_IMG || "",
   LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ʟᴜᴄᴋʏ xᴅ✦ ғʀᴏᴍ ʟᴜᴄᴋʏ ᴛᴇᴄʜ ʜᴜʙ  ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/Tomilucky218/Lucky-XD2",
 
   // ===== REACTION & STICKER SETTINGS =====
@@ -49,8 +49,8 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   AUTO_STICKER: process.env.AUTO_STICKER || "false",
 
   // ===== MEDIA & AUTOMATION =====
-  AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
-  AUTO_TYPING: process.env.AUTO_TYPING || "false",
+  AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
+  AUTO_TYPING: process.env.AUTO_TYPING || "true",
   MENTION_REPLY: process.env.MENTION_REPLY || "false",
   MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/4itzeu.jpg",
 
