@@ -20,7 +20,7 @@ module.exports = {
   CHATBOT: getConfig("CHATBOT") || "on",
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "amazin pals bot",
   MODE: getConfig("MODE") || process.env.MODE || "private",
-  REPO: process.env.REPO || "https://chat.whatsapp.com/HSVrzYxAL64160Ko2upO60?mode=ems_copy_t",
+  REPO: process.env.REPO || "https://github.com/Tomilucky218/Lucky-XD2",
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
