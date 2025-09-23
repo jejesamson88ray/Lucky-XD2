@@ -18,8 +18,8 @@ module.exports = {
   SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "malvin~V2dj3aLZ#LZ4j2tkUA2evU5PndqaF6p1ksl-_YeAsK00YPezEBNg",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
-  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "amazin pals bot",
-  MODE: getConfig("MODE") || process.env.MODE || "private",
+  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "raybot",
+  MODE: getConfig("MODE") || process.env.MODE || "public",
   REPO: process.env.REPO || "https://github.com/Tomilucky218/Lucky-XD2",
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
@@ -67,10 +67,11 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
   DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
-  PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+  PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
-  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",v.AUTO_BIO || "false",
+  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+  AUTO_BIO: process.env.AUTO_BIO || "false",
   WELCOME: process.env.WELCOME || "true",
   GOODBYE: process.env.GOODBYE || "true",
   ADMIN_ACTION: process.env.ADMIN_ACTION || "true",
@@ -93,5 +94,3 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
     '12': process.env.SETTINGS_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg", // Settings Menu
     '13': process.env.AUDIO_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",  // Audio Menu
     '14': process.env.PRIVACY_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg" // Privacy Menu
-  }
-};
